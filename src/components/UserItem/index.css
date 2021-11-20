@@ -1,0 +1,81 @@
+.user-item{
+    list-style-type: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.selected-user{
+    background-color: lightgrey;
+    border-bottom: 1px solid darkgray;
+}
+
+.checkbox-container{
+    width: 10%;
+    text-align: center;
+}
+
+.details-field-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 922px){
+    .details-field-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.details-field{
+    width: 30%;
+}
+
+@media screen and (max-width: 922px){
+    .details-field{
+        width: 90%;
+    }
+}
+
+.details-input{
+    width: 50%;
+    outline: none;
+    margin: 16px;
+    margin-left: 0px;
+    margin-right: 4px;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.actions-container{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions-button{
+    border: none;
+    background-color: transparent;
+}
+
+.action{
+    font-size: 16px;
+}
+
+.save-icon{
+    font-size: 18px;
+    color: green;
+}
+
+.edit-icon{
+    color: cadetblue;
+}
+
+.delete-icon{
+    color: tomato;
+}
